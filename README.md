@@ -113,6 +113,36 @@ The visualization below shows the geographic distribution of these three complai
 
 ![Seasonal Patterns](outputs/seasonal_pattern.png)
 
+## Additional Visual Analysis
+### Case Status Distribution
+Most animal-related cases are marked "Closed" (around 83%), with 17% still "Open."
+ 
+### Departmental Breakdown
+The following departments handle most animal-related cases:
+•	PWDx, INFO, BWSC, ANML, and PARK.
+ 
+### Neighborhood Hotspots
+Dorchester, Jamaica Plain, and Allston/Brighton report the most cases, with other notable neighborhoods including Roxbury and East Boston.
+ 
+### Daily Trends (Jan–Mar 2025)
+Case volumes vary daily, with spikes suggesting weekly cycles or reporting fluctuations.
+ 
+### Top Complaint Types
+Most common requests include:
+1.	Pick up Dead Animal
+2.	Animal Generic Request
+3.	Catchbasin
+
+
+## Interactive Dashboard
+We developed a live dashboard to explore animal-related cases using Dash + Plotly:
+## Features:
+•	Filter by animal case type
+•	View time series plots of complaint volumes
+•	Explore case locations on an interactive map
+To run the dashboard:
+python dashboard.py
+
 ## Key Insights and Next Steps
 
 ### Key Insights
